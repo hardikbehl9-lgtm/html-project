@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=|, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin:0;
+    background-color: beige;
+    }
+    *{
+        text-decoration: none;
+    }
+
+    .navbar {
+
+        background:crimson ; font-family:calibri ; padding-right: 15px; padding-left: 15px;
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+        width:100%
+        z-index:1000;
+
+    }
+    .navdiv{
+        display:flex; align-items:center;justify-content: space-between;
+
+    } 
+    .logo a {
+        font-size: 35px;font-weight: 600; color:white;
+    }
+    li{
+        list-style:none; display:inline-block;
+    }
+    li a{
+        color:white; font-size: 18px; font-weight:bold; margin-right:25px;
+    }
+    button{
+        background-color: black; margin-left: 10px; border-radius: 10px; padding:10px; width:90px;
+
+
+    }
+    button a{
+        color:white;  font-weight:bold; font-size: 15px;
+    }
+    
+    
+
+
+
+
+
+    </style>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo">NavProject</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <button><a href="#">Sign In</a></button>
+                <button><a href="#">Sign Up</a></button>
+                
+            </ul>
+        </div>
+
+
+
+    </nav> 
+    
+    
+    
+    
+    
+    
+    
+    <div class="form">
+    <fieldset>
+        <legend>Info:</legend>
+
+    <form>
+        <label for="username">Enter your full name:</label><br>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="email">Enter yout email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="password"> Confirm your password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <span class="gender-option"><br>
+            <p>Male</p>
+            <input type="checkbox">
+        </span>
+        <span class="gender-option">
+        <p>Female</p>
+        <input type="checkbox">
+        </span>
+
+    <span class="gender-option">
+        <p>Others</p>
+        <input type="checkbox"><br><br>
+    </span>
+    <label for="birthday">Enter your Date of Birth</label><br>
+        <input type="date" id="birthday" name="birthday"><br><br>
+        <input type="submit" value="Submit">
+
+        
+    </form>
+</fieldset>
+</div>
+<article>
+<p><section>The capybara is the world's largest rodent, a semi-aquatic, social mammal native to South America that lives in groups near water, feeding on plants like grass and using its blunt snout and webbed feet for swimming. These large, herbivorous creatures have continually growing teeth they must chew to maintain, and their eyes, ears, and nose are positioned on top of their heads to allow them to stay submerged while watching for predators</section>. Capybaras are known for their gentle nature, often forming social bonds with other capybaras and even other species, leading them to be described as "nature's chairs" because other animals frequently rest on them.  </p>
+Physical Characteristics
+Size: The capybara is the largest rodent in the world, with adults weighing between 75 to 150 pounds (35-70 kg). 
+Appearance: They have short, coarse brown fur, webbed feet, short legs, small ears, and almost no tail. 
+Adaptations: Their bodies are adapted for semi-aquatic life, featuring eyes, ears, and nostrils located on top of their heads to stay submerged while keeping watch for predators. 
+Habitat and Diet
+Habitat: Capybaras live in South American wetlands and grasslands, preferring habitats with rivers, lakes, and swamps. 
+Diet: They are strict herbivores, primarily feeding on grasses, aquatic plants, and tree bark. 
+Behavior and Social Life
+Social Structure: Capybaras are highly social animals that live in groups of 10 to 30 individuals, sometimes larger. 
+Interaction with Other Animals: They are known for their friendly interactions with other capybaras and other species, with birds and monkeys often seen resting on their backs. 
+Vocalization: They communicate using a variety of sounds, including clicks, grunts, whistles, and barks. <br>
+</article>
+<img src="image.png" height="500" width="550"><br><br>
+
+
+<form>
+  Message:<br>
+  <textarea name="message" rows="4" cols="30"></textarea>
+  <br><br>
+  
+  <button type="submit">Send</button>
+</form>
+
+</body>
+</html>
